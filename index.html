@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Petshop</title>
+</head>
+<body>
+    <header>
+        <section class="top"> 
+            <p>Grandes ofertas en comederos</p>
+            <div class="opciones">
+                <select name="idiomas" id="idiomas">
+                    <option value="es">Español</option>
+                    <option value="en">Ingles</option>
+                    <option value="po">Portugues</option>
+                </select>
+                <select name="moneda" id="moneda">
+                    <option value="ARG">ARG$</option>
+                    <option value="USD">USD$</option>
+                    <option value="BR">BR$</option>
+                </select>
+            </div>
+        </section>
+        <section class="navbar">
+            <div class="logo-catDog">
+                <img src="./img/CatCat.svg"></img>
+                <span class="marron">Front</span><span class="blanco">Cat&Dog</span>
+                <img src="./img/DogDog.svg"></img>
+            </div>
+            <nav type="none">
+                <li><img width="15px" src="./img/icon-patita-berdes.png" alt=""><a href="#"> Catergorias</a></li>
+                <li><img width="15px" src="./img/icon-patita-berdes.png" alt=""><a href="#"> Pets</a></li>
+                <li><img width="15px" src="./img/icon-patita-berdes.png" alt=""><a href="#"> Nosotros</a></li>
+                <li><img width="15px" src="./img/icon-patita-berdes.png" alt=""><a href="#"> Contactanos</a></li>
+            </nav>
+        </section>
+    </header>
+    <main>
+        <section class="container-main-top">
+            <div class="container-text-top">
+                <h2 class="text-placer">¡Es un placer tenerte aquí!</h2>
+                <p class="text-descuento">¡Comederos en descuento!</p>
+                <button class="boton-comederos">comederos</button>
+            </div>
+        </section>
+        <section>
+            <article class="prod-dest">
+                <img src="./img/icon-patita.png" alt="patita de perro">
+                <h1 class="titulo">Productos descatacados</h1>
+                <ul type="none" class="acces-rapid">
+                    <li>Comederos</li>
+                    <li>-</li>
+                    <li>Accesorios</li>
+                    <li>-</li>
+                    <li>Comida</li>
+                </ul>
+            </article>
+        </section>
+        <section class="carr-prod-dest">    
+            <article class="tarjeta-prod">
+                <img src="./img/carne.png" alt="">
+                <p class="descr">Jugete Churrasquito</p>
+                <p class="precio">$150</p>
+            </article>
+            <article class="tarjeta-prod">
+                <img src="./img/bowl con comida.png" alt="">
+                <p class="descr">Comedero para perro</p>
+                <p class="precio">$250</p>
+            </article>
+            <article class="tarjeta-prod">
+                <img src="./img/huesitos.png" alt="">
+                <p class="descr">Jugete Huesito</p>
+                <p class="precio">$650</p>
+            </article>
+        </section>
+        <section>
+            <form class="form" action="submit" method="post"> Contáctanos
+                <div class="container-form">
+                    <input class="input-form" placeholder="Nombre y Apellido" type="text" name="nombre" id="nombre">
+                    <input class="input-form" placeholder="Ingresá tu correo electronico" type="text" name="correo" id="correo">
+                    <input class="input-form" placeholder="Teléfono" type="tel" name="telefono" id="telefono">
+                </div>
+                <div class="container-boton-form">
+                    <button class="boton-reset" type="reset">Resetear</button>
+                    <button class="boton-enviar" type="submit">Enviar</button>
+                </div>
+            </form>
+            <article class="newsLetter">
+                <div class="container-icon-news">
+                    <img class="icon-news" src="./img/icon-enviar.png" alt="enviar">
+                    <span>Suscríbete para más novedades</span>
+                </div>
+                <div class="container-sub-news">
+                    <input class="input-form-susc" type="text" name="sucribete" id="sucribete" placeholder="Ingresá tu correo electronico" >
+                    <button class="boton-suscribete">Suscribete</button>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container-footer">
+            <div class="ubicacion" ><img src="./img/icon-ubi.png" alt="">
+                <div class="footer-text" >
+                    <h2>Localidad</h2>
+                    <p>calle-provincia</p>
+                </div>
+            </div>
+            <div class="phone" ><img src="./img/icon-phone.png" alt="">
+                <div class="footer-text" >
+                    <h2>Teléfono</h2>
+                    <p>0800-BATMAN</p>
+                </div>
+            </div>
+            <div class="email" ><img src="./img/icon-email.png" alt="">
+                <div class="footer-text">
+                    <h2>Correo Electronico</h2>
+                    <p>Direccion de correo</p>
+                </div>
+            </div>
+        </div>
+        <div class="logo-catDog">
+            <img src="./img/CatCat.svg"></img>
+            <span class="blanco">Front</span><span class="marronClaro">Cat&Dog</span>
+            <img src="./img/DogDog.svg"></img>
+        </div>
+    </footer>
+    
+</body>
+</html>
